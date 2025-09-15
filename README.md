@@ -106,6 +106,41 @@ Comunicación continua con el agente: recibe acciones y envía observaciones, re
 
 Este archivo debe estar configurado como controlador del vehículo en Webots, y debe estar vinculado al nodo TESLA_MODEL3 en el mundo .wbt.
 
+El proyecto desarrollado en webots está organizado de la siguiente manera:
+
+webots/
+├── controllers/
+│   ├── autonomous_vehicle/
+│   │   ├── autonomous_vehicle.c
+│   │   ├── autonomous_vehicle.exe
+│   │   ├── Makefile
+│   │   └── speedometer.png
+│   ├── control/
+│   │   └── control.py
+│   ├── crossroads_traffic_lights/
+│   └── generic_traffic_light/
+│
+├── plugins/robot_windows/
+│   └── automobile/
+│       ├── automobile.c
+│       ├── automobile.css
+│       ├── automobile.dll
+│       ├── automobile.html
+│       ├── automobile.js
+│       ├── Makefile
+│       ├── overview_widget.js
+│       └── vehicle_timeplot_widget.js
+│
+├── automobile_window/
+│
+├── Makefile
+│
+└── worlds/
+    ├── city_net/
+    ├── .city.jpg
+    ├── .city.wbproj
+    └── city.wbt
+
 📌 Notas Finales
 
 Este proyecto es una excelente base para explorar el uso del aprendizaje por refuerzo en robótica simulada. Puedes extenderlo para incluir otros algoritmos, sensores o entornos más complejos.
