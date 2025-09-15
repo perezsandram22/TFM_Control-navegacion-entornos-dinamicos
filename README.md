@@ -108,38 +108,14 @@ Este archivo debe estar configurado como controlador del vehículo en Webots, y 
 
 El proyecto desarrollado en webots está organizado de la siguiente manera:
 
-webots/
-├── controllers/
-│   ├── autonomous_vehicle/
-│   │   ├── autonomous_vehicle.c
-│   │   ├── autonomous_vehicle.exe
-│   │   ├── Makefile
-│   │   └── speedometer.png
-│   ├── control/
-│   │   └── control.py
-│   ├── crossroads_traffic_lights/
-│   └── generic_traffic_light/
-│
-├── plugins/robot_windows/
-│   └── automobile/
-│       ├── automobile.c
-│       ├── automobile.css
-│       ├── automobile.dll
-│       ├── automobile.html
-│       ├── automobile.js
-│       ├── Makefile
-│       ├── overview_widget.js
-│       └── vehicle_timeplot_widget.js
-│
-├── automobile_window/
-│
-├── Makefile
-│
-└── worlds/
-    ├── city_net/
-    ├── .city.jpg
-    ├── .city.wbproj
-    └── city.wbt
+<img width="256" height="618" alt="Captura de pantalla 2025-09-15 a la(s) 5 04 11 p m" src="https://github.com/user-attachments/assets/a2aa20de-b3b5-4902-beb6-f8c9b6e09e98" />
+
+Esta estructura incluye:
+
+* Controladores para vehículos autónomos y semáforos.
+* Plugins personalizados para visualización y control del automóvil.
+* Mundos simulados en Webots, como city.wbt.
+* Archivos fuente y ejecutables para compilar y ejecutar los controladores.
 
 📌 Notas Finales
 
