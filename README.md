@@ -40,7 +40,6 @@ Este proyecto implementa un agente de **Inteligencia Artificial** que aprende a 
 
 Instala las dependencias necesarias con:
 
-```bash
 pip install -r requirements.txt
 
 🧪 Configurar y Ejecutar Webots
@@ -53,12 +52,10 @@ pip install -r requirements.txt
 
 Para comenzar el entrenamiento, ejecuta el script principal:
 
-```bash
 python train_webots_car.py
 
 O, si prefieres usar la versión con el callback de MPC:
 
-```bash
 python train_car_MPC.py
 
 📌 El script imprimirá el progreso en la consola. Al finalizar:
@@ -71,7 +68,6 @@ Se generará un archivo de Excel con los registros del entrenamiento.
 
 Una vez que tengas un modelo guardado, puedes probar su rendimiento ejecutando:
 
-```bash
 python test_webots_car.py
 
 Este script cargará el modelo y lo ejecutará en el entorno de Webots de manera determinista, lo que te permitirá ver cómo el agente navega.
