@@ -1,0 +1,8 @@
+gymnasium>=0.28.0
+stable-baselines3>=2.2.1
+pandas>=1.5.0
+numpy>=1.23.0
+scipy>=1.10.0
+openpyxl>=3.1.0
+# Webots Python API (instalado con Webots, no por pip)
+# Si usas controladores de Webots, asegúrate de tener Webots instalado y el path de Python configurado
