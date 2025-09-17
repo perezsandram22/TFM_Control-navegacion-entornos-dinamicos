@@ -26,6 +26,8 @@ Este proyecto implementa un agente de **Inteligencia Artificial** que aprende a 
 | `train_car_MPC.py`     | Variante con MPC. Usa `MPCLoggingCallback` y exporta a `training_mpc_logs.xlsx`. |
 | `test_webots_car.py`   | Carga y prueba un modelo PPO entrenado en Webots. |
 | `requirements.txt`     | Lista de dependencias necesarias para ejecutar el proyecto. |
+| `control.py`     | Este archivo es el controlador de Webots escrito en Python que se ejecuta dentro del simulador. Es responsable de capturar los datos de los sensores del vehículo (como el LIDAR y los parachoques), manejar la lógica de la comunicación por sockets con los scripts de entrenamiento y ejecución, y ejecutar las acciones que el agente de IA envía. Es crucial para que el bucle de aprendizaje por refuerzo funcione. |
+| `city.wbt`     | Este es el archivo de mundo de Webots que define la escena y el vehículo. Contiene el diseño del entorno 3D, la posición de los objetos, las propiedades del coche y el enlace al controlador control.py. Este archivo debe abrirse en el simulador Webots para que el proyecto pueda ser ejecutado. |
 
 ---
 
